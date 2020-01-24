@@ -3,8 +3,8 @@ class Project
 attr_reader :title, :backers
 
 
-def initialize(name)
-  @name = name
+def initialize(title)
+  @title = title
   @backers = []
 end
 
