@@ -5,10 +5,7 @@ attr_reader :name, :backed_projects
 
 def initialize(name)
   @name = name
-  @title = title
   @backed_projects = []
-  @backers = []
-  
 end
 
 def back_project(project)
